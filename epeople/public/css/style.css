@@ -6,13 +6,13 @@
  2) font-family: 'Poppins', sans-serif;
  ----------------------------------------*****/
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
- @import url(animate.min.css);
- @import url(normalize.css);
- @import url(meanmenu.css);
- @import url(owl.carousel.min.css);
- @import url(slick.css);
- @import url(jquery-ui.css);
- @import url(nice-select.css);
+ @import url("./animate.min.css");
+ @import url("./normalize.css");
+ @import url("./meanmenu.css");
+ @import url("./owl.carousel.min.css");
+ @import url("./slick.css");
+ @import url("./jquery-ui.css");
+ @import url("./nice-select.css");
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
  * {
      box-sizing: border-box !important;
@@ -226,7 +226,7 @@
      color: #114c7d;
      font-weight: 400;
      font-size: 28px;
-     background-image: url('../images/fevicon.png');
+     /* background-image: url('./images/fevicon.png'); */
      background-repeat: no-repeat;
      padding-left: 55px;
      letter-spacing: -0.5px;
@@ -958,7 +958,7 @@ transition: all 0.3s ease-in;
      vertical-align: middle;
     margin: 6px 0px;
 }
- .main-menu ul>li:nth-child (6) {
+ .main-menu ul>li:nth-child(6) {
      padding-right: 0px;
 }
  .nav>li {
@@ -1141,7 +1141,7 @@ transition: ease all 0.5s;
 
 /** about section **/
  .about {
-     background:url(../images/about_bg.jpg);
+     background:url('../../bgimages/about_bg.jpg ');
     background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
