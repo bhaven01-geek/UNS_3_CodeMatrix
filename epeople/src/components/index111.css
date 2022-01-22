@@ -1,0 +1,15 @@
+#center-card {
+  display: flex;
+  text-align: left;
+}
+body {
+  background-color: #38c8a8;
+}
+.mb-3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

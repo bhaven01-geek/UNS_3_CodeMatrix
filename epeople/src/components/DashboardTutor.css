@@ -1,0 +1,116 @@
+:root {
+  --red: #e23c52;
+  --white: #ffffff;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.icons-div {
+  margin-right: 10px;
+}
+
+.logo-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-tutor-div {
+  /* border: 1px solid black; */
+  width: 70%;
+  height: 80vh;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  overflow-y: scroll;
+}
+
+.search-section {
+  background-color: rgb(248, 248, 248);
+  height: 15%;
+  border-bottom: 1px solid rgb(145, 142, 142);
+  border-bottom: 1px solid rgb(95, 94, 94);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.request-section {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.void-img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.tutor {
+  height: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0.5rem 0rem;
+  border-bottom: 1px solid grey;
+
+  padding: 0.5rem 0rem;
+}
+
+.tutor-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+}
+
+.tutor-name h4 {
+  margin: 1px;
+}
+
+.tutor-name p {
+  margin: 1px;
+  font-size: 12px;
+}
+
+.tutor-div {
+  /* border: 1px solid black; */
+  width: 100%;
+}

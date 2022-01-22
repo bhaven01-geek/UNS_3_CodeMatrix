@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.icons-div{
+  margin-right: 10px;
+}
+
+.logo-name{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.main-section{
+  /* border: 1px solid red; */
+  height: 87vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-card{
+  /* border: 1px solid black; */
+  width: 63%;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.dash-div{
+  /* border: 1px solid black; */
+  margin: 1.5rem 1rem 0.5rem 0.5rem;
+  height: max-content;
+}
+
+
+
+.search-div{
+  /* border: 1px solid black; */
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 2px;
+  margin: 1.5rem 1rem 0.5rem 0.5rem;
+  height: max-content;
+  background-color: #e9ebf3;
+}
+
+
+.meetup-section{
+  border: 1px solid black;
+  width: 30%;
+  margin: 0.5rem;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

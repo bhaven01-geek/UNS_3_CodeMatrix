@@ -22,10 +22,10 @@ body {
   height: 100%;
   width: 100%;
   place-items: center;
-  background-color: #e23c522c;
+  background-color: #302d5a2c;
 }
 ::selection {
-  background: #e23c52;
+  background: #302d5a;
   color: #fff;
 }
 .wrapper {
@@ -80,7 +80,7 @@ body {
   left: 0;
   z-index: 0;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #e23c52, #e23c52);
+  background: -webkit-linear-gradient(left, #302d5a, #302d5a);
   transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 input[type="radio"] {
@@ -133,7 +133,7 @@ input[type="radio"] {
   transition: all 0.3s ease;
 }
 .form-inner form .field input:focus {
-  border-color: #e23c52b2;
+  border-color: #302d5ab2;
   /* box-shadow: inset 0 0 3px #fb6aae; */
 }
 .form-inner form .field input::placeholder {
@@ -152,7 +152,7 @@ form .field input:focus::placeholder {
 }
 .form-inner form .pass-link a,
 .form-inner form .signup-link a {
-  color: #e23c52;
+  color: #302d5a;
   text-decoration: none;
 }
 .form-inner form .pass-link a:hover,
@@ -173,10 +173,10 @@ form .btn .btn-layer {
   left: -100%;
   background: -webkit-linear-gradient(
     right,
-    #e23c52,
-    #e23c52,
-    #e23c52,
-    #e23c52
+    #302d5a,
+    #302d5a,
+    #302d5a,
+    #302d5a
   );
   border-radius: 5px;
   transition: all 0.4s ease;
